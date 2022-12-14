@@ -1,0 +1,10 @@
+/* fix */
+* { margin: 0px; }
+
+/* divs */
+div { height: 100vh; }
+div:nth-child(n) { background-color: red; }
+div:nth-child(2n) { background-color: green; }
+
+/* scroll */
+html { scroll-behavior: smooth; }
