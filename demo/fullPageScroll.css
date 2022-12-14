@@ -1,0 +1,12 @@
+/* fix */
+* { margin: 0px; }
+
+/* pages */
+.fullPageScrollPage { height: 100vh; }
+
+/* indicators */
+.fullPageScrollPageIndicatorItem { width: 15px; height: 15px; border-radius: 50%; background-color: white; margin: 10px; cursor: pointer; }
+.fullPageScrollPageIndicator { position: fixed; top: 50%; right: 0px; transform: translate(0%, -50%); }
+
+/* scroll */
+html { scroll-behavior: smooth; }
